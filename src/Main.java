@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        MyList collection = new MyList();
+        MyList<Animal> collection = new MyList();
 
         Animal cat = new Cat(5.2);
         Animal dog = new Dog(7.8);
