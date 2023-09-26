@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class Moese {
+public class Moese extends Animal{
+    @Override
+    void say() {
+        System.out.println("пи-пи-пи");
+    }
 }
